@@ -1,6 +1,6 @@
 @import url("./component-library/style.css");
+@import url("./card/card.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-
 body {
   font-family: "Poppins", sans-serif;
   background: var(--secondary);
@@ -70,42 +70,4 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-.card {
-  position: relative;
-  overflow: hidden;
-  width: 250px;
-  padding: 0.5rem;
-  background-color: white;
-  text-align: center;
-}
-.wishlist-icon-container {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 0.4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: var(--white);
-  cursor: pointer;
-}
-.wishlist-icon {
-  width: 1.2rem;
-}
-.image-container {
-  background-color: var(--grey);
-}
-.card-image {
-  width: 200px;
-}
-.card-text {
-  margin: 0.5rem auto;
-}
-.card > button {
-  width: 100%;
-}
-.card > h2 {
-  color: var(--black-light);
 }

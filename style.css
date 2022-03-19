@@ -1,6 +1,6 @@
 @import url("./component-library/style.css");
+@import url("./card/card.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-
 body {
   font-family: "Poppins", sans-serif;
   background: var(--secondary);
@@ -62,4 +62,12 @@ input:focus {
 .header-actions {
   align-self: flex-end;
   justify-content: flex-end;
+}
+main {
+  margin-top: 1rem;
+}
+.product-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

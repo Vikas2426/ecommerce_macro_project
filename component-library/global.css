@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-light: #cecece;
+  --primary: #9a9a9a;
+  --primary-dark: #7e7d7d;
+
+  --secondary-light: #eeeeee;
+  --secondary: #e5e5e5;
+  --secondary-dark: #d1d1d1;
+
+  --danger-light: #ef4444;
+  --danger: #dc2626;
+  --danger-dark: #b91c1c;
+
+  --action-light: #34d399;
+  --action: #059669;
+  --action-dark: #047857;
+
+  --grey-light: #d1d5db;
+  --grey: #9ca3af;
+  --grey-dark: #6b7280;
+
+  --black-light: #333333;
+  --black: #282828;
+  --black-dark: #000000;
+
+  --white: #ffffff;
+  --lynx-white: #f7f7f7;
+
+  --violet-light: #8b5cf6;
+  --violet: #7c3aed;
+  --violet-dark: #6d28d9;
+}
+
+/* font-weight */
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* font-size */
+
+.font-xs {
+  font-size: 8px;
+  line-height: 16px;
+}
+
+.font-s {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-md {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.font-lg {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* border-radius */
+
+.br-s {
+  border-radius: 5px;
+}
+
+.br-md {
+  border-radius: 10px;
+}
+
+.br-lg {
+  border-radius: 15px;
+}
+
+.br-full {
+  border-radius: 999px;
+}

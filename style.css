@@ -1,0 +1,59 @@
+@import url("./component-library/style.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--secondary);
+  color: var(--primary);
+  font-weight: 400;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  font-weight: 700;
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.btn {
+  background-color: var(--primary);
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  color: var(--secondary);
+  font-weight: 700;
+  border: none;
+}
+
+.search-bar {
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+input {
+  width: 30vw;
+  margin-left: 10px;
+  font-size: large;
+}
+input,
+input:focus {
+  border: none;
+  outline: none;
+}
+.header-actions {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   padding: 0.5rem 2rem;
   font-weight: 700;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 a {

@@ -14,7 +14,7 @@
 
 .form-container > button {
   width: 100%;
-  font-size: larger;
+  font-size: 18px;
 }
 .form-container > input[type="text"],
 .form-container > input[type="email"],

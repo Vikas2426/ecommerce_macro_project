@@ -1,4 +1,5 @@
 @import url("../component-library/global.css");
+
 .card {
   position: relative;
   overflow: hidden;
@@ -36,4 +37,24 @@
 }
 .card > h2 {
   color: var(--black-light);
+}
+
+.card-horizontal {
+  display: flex;
+  width: 100%;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: 0.5rem;
+  background-color: white;
+  text-align: center;
+}
+
+.card-horizontal-text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+.card-horizontal-text > button {
+  margin: 0.3rem;
 }

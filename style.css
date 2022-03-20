@@ -31,6 +31,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 1;
+  border-bottom: 2px solid var(--primary-light);
 }
 
 a {
@@ -79,7 +80,7 @@ main {
   margin-top: 8vh;
 }
 .wider-section {
-  width: 80vw;
+  width: 82vw;
 }
 .margin-left-20 {
   margin-left: 20vw;

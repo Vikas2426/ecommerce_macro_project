@@ -64,10 +64,36 @@ input:focus {
   justify-content: flex-end;
 }
 main {
-  margin-top: 1rem;
+  display: flex;
+  overflow-y: hidden;
+}
+.product-count-list > h4 {
+  margin: 1.4rem;
 }
 .product-listing {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  overflow-y: scroll;
+}
+
+.filters-container {
+  background-color: var(--white);
+  height: 90vh;
+  width: 20vw;
+  padding: 0.5rem;
+}
+.filter-heading {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+.filter-title {
+  color: var(--black);
+  font-weight: 700;
 }

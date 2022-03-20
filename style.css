@@ -98,7 +98,7 @@ main {
   background-color: var(--white);
   color: var(--black);
   height: 90vh;
-  width: 20vw;
+  width: 18vw;
   padding: 1rem;
   position: fixed;
 }

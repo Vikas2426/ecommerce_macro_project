@@ -22,11 +22,15 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 100vw;
+  height: 8vh;
   justify-content: space-between;
   padding: 0.5rem 2rem;
   font-weight: 700;
   background-color: var(--white);
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 a {
@@ -35,7 +39,6 @@ a {
 }
 
 .btn {
-  background-color: var(--primary);
   padding: 0.5rem 1.5rem;
   cursor: pointer;
   color: var(--secondary);
@@ -43,6 +46,14 @@ a {
   border: none;
 }
 
+.btn-primary {
+  background-color: var(--primary);
+}
+
+.btn-secondary {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
 .search-bar {
   border: 2px solid var(--primary);
   border-radius: 5px;
@@ -65,9 +76,15 @@ input:focus {
 }
 main {
   display: flex;
-  overflow-y: hidden;
+  margin-top: 8vh;
 }
-.product-count-list > h4 {
+.wider-section {
+  width: 80vw;
+}
+.margin-left-20 {
+  margin-left: 20vw;
+}
+.wider-section > h4 {
   margin: 1.4rem;
 }
 .product-listing {
@@ -77,23 +94,55 @@ main {
   overflow-y: scroll;
 }
 
-.filters-container {
+.narrow-section {
   background-color: var(--white);
+  color: var(--black);
   height: 90vh;
   width: 20vw;
-  padding: 0.5rem;
+  padding: 1rem;
+  position: fixed;
 }
-.filter-heading {
+.narrow-section-header {
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
-.filter {
+.narrow-sub-section {
   display: flex;
   flex-direction: column;
   margin: 1rem auto;
 }
-.filter-title {
-  color: var(--black);
+.narrow-section-title {
   font-weight: 700;
+}
+.cart-amount-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quantity-container {
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--black);
+  margin: 1rem 0;
+}
+.quantity-container input {
+  width: 1rem;
+}
+.quantity-container input::-webkit-outer-spin-button,
+.quantity-container input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.quantity-container input[type="number"] {
+  -moz-appearance: textfield;
+}
+.right-0 {
+  right: 0;
+}
+.left-0 {
+  position: absolute;
+  left: 0;
 }

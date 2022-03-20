@@ -4,7 +4,7 @@
   background-color: var(--white);
   max-width: 500px;
   height: 450px;
-  margin: 3rem auto;
+  margin: 20vh auto;
   flex-direction: column;
   justify-content: space-evenly;
   padding: 2rem 3rem;

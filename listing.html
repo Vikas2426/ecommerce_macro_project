@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VC-Men's Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="flex align-center">
+        <a href="./index.html">
+            <span class="brand">VC-Men's Store</span>
+        </a>
+        <span class="search-bar flex align-center">
+            <img src="./assets/Vectorsearch.svg" alt="search" />
+            <input type="text" placeholder="Search">
+        </span>
+        <span class="header-actions flex align-center">
+            <a href="./login/login.html" class=" badge-container ">
+                <button class="btn btn-primary">
+                    Login
+                </button>
+            </a>
+            <a href="./wishlist.html" class=" badge-container ">
+                <div>
+                    <img src="./assets/Vectorwishlist.svg" alt="">
+                    <span class="badge badge-right">3</span>
+                </div>
+            </a>
+            <a href="./cart.html" class=" badge-container ">
+                <span>
+                    <img src="./assets/Vectorcart.svg" alt="">
+                    <span class="badge badge-right">3</span>
+                </span>
+            </a>
+        </span>
+    </header>
+    <main>
+        <div class="narrow-section">
+            <div class="narrow-section-header">
+                <span class="narrow-section-title">Filters</span>
+                <a href="">Clear</a>
+            </div>
+            <div class="narrow-sub-section">
+                <span class="narrow-section-title">Price</span>
+                <input type="range" min="50" max="200" />
+            </div>
+            <hr>
+            <div class="narrow-sub-section">
+                <span class="narrow-section-title">Category</span>
+                <span>
+                    <input type="checkbox" id="mens-clothing-1" name="mens-clothing" value="Mens Clothing">
+                    <label for="mens-clothing-1"> Mens Clothing</label><br>
+                </span>
+                <span>
+                    <input type="checkbox" id="mens-clothing-2" name="mens-clothing" value="Mens Clothing">
+                    <label for="mens-clothing-2"> Mens Clothing</label><br>
+                </span>
+            </div>
+            <hr>
+            <div class="narrow-sub-section">
+                <span class="narrow-section-title">Category</span>
+                <span>
+
+                    <input type="radio" id="4star" name="star" value="30">
+                    <label for="4star">4 stars & above</label><br>
+                </span>
+                <span>
+                    <input type="radio" id="3star" name="star" value="60">
+                    <label for="3star">3 stars & above</label><br>
+                </span>
+                <span>
+                    <input type="radio" id="2star" name="star" value="100">
+                    <label for="2star">2 stars & above</label><br>
+                </span>
+                <span>
+                    <input type="radio" id="1star" name="star" value="1star">
+                    <label for="1star">1 star & above</label><br>
+                </span>
+            </div>
+            <hr>
+            <div class="narrow-sub-section">
+                <span class="narrow-section-title">Category</span>
+                <span>
+
+                    <input type="radio" id="LTH" name="sortByPrice" value="30">
+                    <label for="LTH">Price - Low to High</label><br>
+                </span>
+                <span>
+                    <input type="radio" id="HTL" name="sortByPrice" value="60">
+                    <label for="HTL">Price - High to Low</label><br>
+                </span>
+            </div>
+        </div>
+        <div class="wider-section margin-left-20">
+            <h4>Showing All Products (Showing 12 Products)</h4>
+            <div class="product-listing">
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorred-hearts.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorred-hearts.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <span class="wishlist-icon-container">
+                        <img class="wishlist-icon" src="./assets/Vectorwishlist.svg" />
+                    </span>
+                    <div class="image-container">
+                        <img class="card-image" src="./assets/image 1jacket.svg">
+                    </div>
+                    <p class="card-text">Men's Premium Jacket</p>
+                    <h2>Rs.2000</h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
